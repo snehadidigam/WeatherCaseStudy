@@ -1,9 +1,3 @@
-<?php
-$con=mysqli_connect("localhost","root","","localdb");
-// $query = mysqli_query($con, "INSERT INTO MyGuests (firstname, lastname, email)
-// VALUES ('snehal', 'Didimmmmm', 'sd@exam.com')");
-mysqli_close($con);
-?>
 
 
 <!DOCTYPE html>
