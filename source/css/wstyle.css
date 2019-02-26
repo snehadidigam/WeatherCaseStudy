@@ -1,0 +1,63 @@
+#page-content{
+	position: absolute;
+	top: 30px;
+	left: 100px;
+	width: 90%;
+	/* height: 30%;	 */
+	padding: 18px 6% 60px 6%;
+	margin: 0 0 35px 0;
+	background: rgb(247, 247, 247);
+	border: 1px solid rgba(147, 184, 189,0.8);
+	box-shadow:	
+		0pt 2px 5px rgba(105, 108, 109,  0.7),	
+		0px 0px 8px 5px rgba(208, 223, 226, 0.4) inset;
+    border-radius: 5px;
+}
+
+#pic {
+	float: right;
+    width: 100px;
+    padding: 50px;
+}
+nav {
+	width: 900px;
+}
+
+body {
+  font-family: Courier, Arial, sans-serif;
+  border-top: 5px solid #4c4066;
+  margin: 0px auto;
+  font-size: 14px;
+  color: #4c4066;
+}
+
+a {
+	float: right;
+	text-decoration: none;
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#cands, #desc {
+	font-weight: bold;
+}
+
+@media screen and (max-width: 1220px) {
+  #pic {
+     float: none;
+     /*width: 100px;*/
+     /*right: 20px;*/
+     /*height: 30px;*/
+  }
+  #page-content {
+      height: 70%;
+      left: 50px;
+      right: 90px;
+      width: 70%;
+  }
+
+  p, nav {
+  	width: 100%;
+  }
+
+}
